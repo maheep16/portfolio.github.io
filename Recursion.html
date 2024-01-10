@@ -4,6 +4,69 @@
     <body>
         <h1>new page</h1>
         <a href="index.html">Back to Home page</a>
+
+<h3># Given a nested tuple create a flat list
+def tup_con(tup:tuple) -> list:
+    """_summary_
+
+    Args:
+        tup (tuple): _description_
+
+    Returns:
+        str: _description_
+        
+    >>> tup_con(('m',('l','o'),'k','h',('g','p')))
+    ['m', 'l', 'o', 'k', 'h', 'g', 'p']
+    >>> tup_con(('k', ('m', 'o'), 'p'))
+    ['k', 'm', 'o', 'p']
+    >>> tup_con((1, 2, (3, 5), 4, 6))
+    [1, 2, 3, 5, 4, 6]
+    """
+    temp_str =[]
+    #base case: If the val is not a tuple then add it to the list
+    for val in tup:
+        if not isinstance(val, tuple):
+            temp_str.extend(val)
+    #recursive step
+        else:
+            temp_str.extend(tup_con(val))
+    return temp_str
+            
+# Given a string, print out each letter at a time
+def print_letters(word:str) -> [str]:
+    """_summary_
+
+    Args:
+        word (str): Given a word
+    
+    >>> print_letters("Moo")
+    ['M', 'o', 'o']
+    >>> print_letters("Hello")
+    ['H', 'e', 'l', 'l', 'o']
+    >>> print_letters("I")
+    ['I']
+    >>> print_letters("Maheep")
+    ['M', 'a', 'h', 'e', 'e', 'p']
+    >>> print_letters('Gupi')
+    ['G', 'u', 'p', 'i']
+    """
+    temp = []
+    # Base case: The word is a single letter
+    if len(word) == 1: 
+        temp += word[0]
+        return temp
+    # Recursive step:
+    else:
+        while len(word) > 1:
+            temp += word[0]
+            temp += print_letters(word[1:])
+            return temp
+
+if __name__ == '__main__':
+    import doctest
+    doctest.testmod()
+    # The "verbose = True" is there to  show all results whether or not they has passed or failed.
+    # If  we do not put "verbose = True", this will only show the results for the tests that have failed.</h3>
     </body>
 </head>
 </html>
