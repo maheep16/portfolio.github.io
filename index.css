@@ -21,7 +21,7 @@ h10 {
     top:-50px; 
     left:-35px; 
     display:block; 
-    z-index:100; 
+    z-index:999; 
     cursor: pointer; 
     -webkit-transition-property: all; 
     -webkit-transition-duration: 0.3s; 
