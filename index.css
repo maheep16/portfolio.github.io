@@ -27,7 +27,7 @@ h10 {
     -webkit-transition-duration: 0.3s; 
     -webkit-transition-timing-function: ease; 
     margin:50px;
-    height:250px;
+    height:100px;
     } 
     
     /*change the number below to scale to the appropriate size*/ 
@@ -40,10 +40,10 @@ h10 {
 }
 
 .img_1{
-    height: 200px;
+    height: 100px;
     margin-bottom: 50px;
 }
 .img_2{
-    height: 200px;
+    height: 100px;
     margin-bottom: 50px;
 }
