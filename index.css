@@ -27,7 +27,7 @@ h10 {
     -webkit-transition-timing-function: ease; 
     margin-left:10px;
     height:250px;
-    width:100px
+    width:100px;
 } 
     
     /*change the number below to scale to the appropriate size*/ 
@@ -41,7 +41,9 @@ h10 {
 
 .img_1{
     margin-bottom: 10px;
+    width: 100px;
 }
 .img_2{
     margin-bottom: 10px;
+    width: 100px;
 }
