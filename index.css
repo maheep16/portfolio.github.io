@@ -28,7 +28,7 @@ h10 {
     margin-left:10px;
     height:250px;
     width:200px;
-    padding:  50px
+    padding:50px;
 } 
     
     /*change the number below to scale to the appropriate size*/ 
@@ -44,9 +44,11 @@ h10 {
     margin-bottom: 10px;
     width: 150px;
     height: 100px;
+    padding:50px;
 }
 .img_2{
     margin-bottom: 10px;
     width: 150px;
-    height:100px
+    height:100px;
+    padding:50px;
 }
