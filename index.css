@@ -40,10 +40,12 @@ h10 {
 .container.img_1{
     height:500px;
     width:450px;
+    padding: 10px;
 }
 .container.img_2{
     height:500px;
     width:450px;
+    padding: 10px;
 }
 
 
