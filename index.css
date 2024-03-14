@@ -37,12 +37,12 @@ h10 {
     justify-content: left;
 }
 
-.container.img_1{
+.container.img_1.thumbnail{
     height:500px;
     width:450px;
     padding: 10px;
 }
-.container.img_2{
+.container.img_2.thumbnail{
     height:500px;
     width:450px;
     padding: 10px;
