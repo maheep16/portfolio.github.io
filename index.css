@@ -37,15 +37,3 @@ h10 {
     justify-content: left;
 }
 
-.container.thumbnail.img_1{
-    height:100px;
-    width:50px;
-    padding: 10px;
-}
-.container.img_2.thumbnail{
-    height:500px;
-    width:50px;
-    padding: 10px;
-}
-
-
