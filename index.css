@@ -38,7 +38,13 @@ h10 {
     justify-content: left;
 }
 
-.container.thumbnail.img_1{
+.container.img_1{
+    height:100px;
+    width:50px;
+    {
+.container.img_2{
+    height:100px;
+    width:50px;
     {
 
 
