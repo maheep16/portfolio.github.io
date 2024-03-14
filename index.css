@@ -36,4 +36,7 @@ h10 {
     display: flex;
     justify-content: left;
 }
+.img_1.thumbnail{
+    height: 100px;
+}
 
