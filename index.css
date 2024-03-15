@@ -25,7 +25,6 @@ h10 {
     display:block;  
     cursor: pointer; 
     transition: all 0.3s ease-in;
-    width: 300px;
     margin-left: 50px;
     width:100px;
     padding-left: 50px;
@@ -43,5 +42,5 @@ h10 {
     transform: scale(2); 
     }
 .img_2:hover { 
-transform: scale(2); 
+    transform: scale(2); 
 }
