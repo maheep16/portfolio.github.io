@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<head>
+    <link rel = "stylesheet" href = "Portfoliocss.css">
+    <body>
+        <h1>Case Studies</h1>
+        <a href="index.html">Back to Home page</a>
+    </body>
+</head>
+</html>
