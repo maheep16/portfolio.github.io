@@ -24,7 +24,7 @@ h10 {
 .img_1{ 
     display:block; 
     cursor: pointer; 
-    transition: all 0.3s ease-in:
+    transition: all 0.3s ease-in;
     height:100px;
     margin-left: 50px;
     } 
@@ -35,7 +35,7 @@ h10 {
 .img_2{ 
     display:block; 
     cursor: pointer; 
-    transition: all 0.3s ease-in:
+    transition: all 0.3s ease-in;
     height:100px;
     margin-left: 50px;
     } 
