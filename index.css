@@ -25,7 +25,7 @@ h10 {
     display:block; 
     cursor: pointer; 
     transition: all 0.3s ease-in;
-    height:100px;
+    widtht:100px;
     margin-left: 50px;
     } 
 .img_1:hover { 
@@ -36,7 +36,7 @@ h10 {
     display:block; 
     cursor: pointer; 
     transition: all 0.3s ease-in;
-    height:100px;
+    width:100px;
     margin-left: 50px;
     } 
 .img_2:hover { 
