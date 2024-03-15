@@ -17,30 +17,31 @@ h10 {
     margin-bottom:50px;
 }
 .container{
-    display: flex;
+    display:flex;
     justify-content: left;
 }
 
-.img_1{ 
-    display:block; 
+.img_1{  
+    display:block;  
     cursor: pointer; 
     transition: all 0.3s ease-in;
-    widtht:100px;
+    width: 300px;
     margin-left: 50px;
+    width:300px;
+    padding-left: 50px;
+
     } 
-.img_1:hover { 
-    transform: scale(2); 
-}
 
 .img_2{ 
     display:block; 
     cursor: pointer; 
     transition: all 0.3s ease-in;
-    width:100px;
+    width: 300px;
     margin-left: 50px;
-    } 
-.img_2:hover { 
+    }  
+.img_1:hover { 
     transform: scale(2); 
+    }
+.img_2:hover { 
+transform: scale(2); 
 }
-
-
