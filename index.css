@@ -27,7 +27,7 @@ h10 {
     transition: all 0.3s ease-in;
     width: 300px;
     margin-left: 50px;
-    width:300px;
+    width:100px;
     padding-left: 50px;
 
     } 
@@ -36,7 +36,7 @@ h10 {
     display:block; 
     cursor: pointer; 
     transition: all 0.3s ease-in;
-    width: 300px;
+    width: 100px;
     margin-left: 50px;
     }  
 .img_1:hover { 
