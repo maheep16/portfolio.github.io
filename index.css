@@ -40,8 +40,8 @@ h10 {
     padding-right: 50px;
     }  
 .img_1:hover { 
-    transform: scale(1.5); 
+    transform: scale(2); 
     }
 .img_2:hover { 
-    transform: scale(1.5); 
+    transform: scale(2); 
 }
