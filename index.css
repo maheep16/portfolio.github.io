@@ -29,7 +29,7 @@ h10 {
     width:300px;
     padding-left: 50px;
 
-    } 
+} 
 
 .img_2{ 
     display:block; 
@@ -44,4 +44,9 @@ h10 {
     }
 .img_2:hover { 
     transform: scale(2); 
+}
+
+.my_button{
+    padding: 8px;
+    border-radius: 10px
 }
